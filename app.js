@@ -15,6 +15,7 @@ const displaySearchResult = docs => {
     console.log(docs);
     const searchResult = document.getElementById('search-result');
     searchResult.textContent = '';
+    // document.getElementById('result-found').innerText = docs.length;
     if (docs.length == 0) {
         const result = document.getElementById('no-result');
         result.style.display = 'block';
